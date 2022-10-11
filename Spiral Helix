@@ -1,0 +1,10 @@
+import turtle
+loadwindow = turtle.Screen()
+turtle.speed(100)
+
+for i in range(39):
+    turtle.circle(5*i)
+    turtle.circle(-5*i)
+    turtle.left(i)
+
+turtle.exitonclick()        
